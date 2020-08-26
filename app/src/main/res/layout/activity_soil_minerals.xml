@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:fillViewport="false">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+        tools:context=".SoilMinerals">
+            <TextView
+                android:textColor="#004A00"
+                android:text="Soil &amp; Minerals"
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:paddingTop="15dp"
+                android:paddingBottom="10dp"
+                android:textSize="30dp"
+
+                android:layout_height="wrap_content" />
+            <LinearLayout
+                android:paddingTop="20dp"
+                android:paddingLeft = "20dp"
+                android:paddingRight = "20dp"
+                android:background="@drawable/downside"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:textStyle="bold"
+                    android:text="Major Elements"
+                    android:textSize="20dp"
+                    android:textColor="#004A00"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:paddingTop="5dp"
+                    android:layout_width="match_parent"
+                    android:text="Nitrogen (N) Nitrogen is a key element in plant growth.\n\nPhosphorus (P) Phosphorus helps transfer energy from sunlight to plants, stimulates early root and plant growth, and hastens maturity.\n\nPotassium (K) Potassium plays a major role in the regulation of water in plants (osmo-regulation). \n\nCalcium (Ca) Calcium plays a very important role in plant growth and nutrition, as well as in cell wall deposition\n\nMagnesium (Mg) Magnesium helps in Photosynthesis process.\n\nSulphur (S) Sulphur is an essential plant nutrient required by all crops for optimum production."
+                    android:textColor="#004A00"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_marginTop="20dp"
+                    android:layout_width="match_parent"
+                    android:textStyle="bold"
+                    android:text="Minerals composition for farming"
+                    android:textSize="20dp"
+                    android:textColor="#004A00"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:paddingTop="5dp"
+                    android:layout_width="match_parent"
+                    android:textColor="#004A00"
+                    android:text="While soil minerals and organic matter hold and store nutrients, soil water is what readily provides nutrients for plant uptake. ... The basic components of soil are minerals, organic matter, water and air. The typical soil consists of approximately 45% mineral, 5% organic matter, 20-30% water, and 20-30% air."
+                    android:layout_height="wrap_content" />
+                <TextView
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:textStyle="bold"
+                android:text="Soil Nutreients"
+                android:textSize="20dp"
+                android:textColor="#004A00"
+                android:layout_height="wrap_content" />
+                <TextView
+                    android:paddingTop="5dp"
+                    android:layout_width="match_parent"
+                    android:textColor="#004A00"
+                    android:text="Soil is a major source of nutrients needed by plants for growth. The three main nutrients are nitrogen (N), phosphorus (P) and potassium (K). Together they make up the trio known as NPK. Other important nutrients are calcium, magnesium and sulfur.\n\nNutrients get into the soil many different ways: From decomposed animal waste and dead plants, the atmosphere, weathering of rocks and bacteria conversions. When soils are used to grow foods, the soils need to be kept healthy, as a lot of nutrients are taken up by plants and not replaced."
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_marginTop="20dp"
+                    android:layout_width="match_parent"
+                    android:textStyle="bold"
+                    android:text="Increasing soil nutreints"
+                    android:textSize="20dp"
+                    android:textColor="#004A00"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:paddingTop="5dp"
+                    android:layout_width="match_parent"
+                    android:textColor="#004A00"
+                    android:text="1. Check which nutrients your plants need.\n\n2. Choose fertilizers from organic sources.\n\n3. Consider using manure or other organic matter.\n\n4. Make your own compost.\n\n5. Add the fertilizing material.\n\n6. Add trace elements.\n\n7. Consider crop rotation.\n\n8. Consider adding beneficial fungi or bacteria"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_marginTop="20dp"
+                    android:layout_width="match_parent"
+                    android:textStyle="bold"
+                    android:text="Improving soil"
+                    android:textSize="20dp"
+                    android:textColor="#004A00"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:paddingTop="5dp"
+                    android:layout_width="match_parent"
+                    android:textColor="#004A00"
+                   android:text="1. Work in 3 to 4 inches of organic matter such as well-rotted manure or finished compost.\n\n2. Mulch around your plants with leaves, wood chips, bark, hay or straw. Mulch retains moisture and cools the soil.\n\n3. Add at least 2 inches of organic matter each year.\n\n4. Grow cover crops or green manures."
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+    </LinearLayout>
+</ScrollView>

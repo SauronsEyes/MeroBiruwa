@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+
+    <LinearLayout
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:orientation="horizontal"
+        android:background="@drawable/bggrass2">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Good\nMorning\nSafal!"
+            android:textColor="#ffff"
+            android:textSize="40dp" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/profile_image"
+            android:layout_width="wrap_content"
+            android:layout_height="140dp"
+            android:paddingTop="30dp"
+            android:paddingBottom="10dp"
+            android:src="@drawable/profile"
+            app:civ_border_color="#ffff"
+            app:civ_border_width="2dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:padding="5dp"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/oneside">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:paddingLeft="10dp"
+                android:id="@+id/currentTemp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="30"
+                android:textColor="#5CA745"
+                android:textSize="30dp" />
+            <LinearLayout
+                android:paddingLeft="10dp"
+                android:layout_width="wrap_content"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+                <ImageView
+
+                    android:layout_width="15dp"
+                    app:srcCompat="@drawable/location_icon"
+                    android:layout_height="15dp" />
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#5CA745"
+                    android:textSize="10dp"
+                    android:text="Pulchowk"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:padding="5dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/roundedge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:id="@+id/weatherIcon1"
+                android:src="@drawable/sunny"/>
+            <TextView
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:text="10C"
+                android:id="@+id/tempDay"
+                android:textColor="#ffff"
+                android:textSize="17dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:padding="5dp"
+            android:layout_marginLeft="8dp"
+            android:background="@drawable/roundedge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:id="@+id/weatherIcon2"
+                android:src="@drawable/sunny"/>
+            <TextView
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:text="10C"
+                android:id="@+id/tempDay2"
+                android:textColor="#ffff"
+                android:textSize="17dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:padding="5dp"
+            android:layout_marginLeft="8dp"
+            android:background="@drawable/roundedge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:id="@+id/weatherIcon3"
+                android:src="@drawable/sunny"/>
+            <TextView
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:text="10C"
+                android:id="@+id/tempDay3"
+                android:textColor="#ffff"
+                android:textSize="17dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:padding="5dp"
+            android:layout_marginLeft="8dp"
+            android:background="@drawable/roundedge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/weatherIcon4"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/sunny"/>
+            <TextView
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:text="10C"
+                android:id="@+id/tempDay4"
+                android:textColor="#ffff"
+                android:textSize="17dp"/>
+        </LinearLayout>
+    </LinearLayout>
+    `<TextView
+    android:paddingLeft="10dp"
+    android:layout_marginTop="20dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Humidity"
+    android:textSize="25dp"
+    android:textColor="#5CA745"
+    android:id="@+id/currentHumidity"/>
+    <TextView
+        android:paddingLeft="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Max Temp"
+        android:textSize="25dp"
+        android:textColor="#5CA745"
+        android:id="@+id/maximumTemp"/>
+    <TextView
+        android:paddingLeft="10dp"
+        android:textSize="25dp"
+        android:textColor="#5CA745"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Min Temperature"
+        android:id="@+id/minimumTemp"/>
+    <TextView
+        android:id="@+id/weatherDescription"
+        android:paddingLeft="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Description here"/>
+    <LinearLayout
+        android:padding="20dp"
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:background="@drawable/upside"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:id="@+id/homeLayout"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:tint="#5CA745"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                app:srcCompat="@drawable/home"/>
+            <TextView
+                android:textColor="#5CA745"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Home"/>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/myGardenLayout"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                app:srcCompat="@drawable/garden"/>
+            <TextView
+                android:textColor="#000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="My Garden"/>
+        </LinearLayout>
+        <LinearLayout
+            android:gravity="center"
+            android:layout_weight="1"
+            android:id="@+id/marketLayout"
+            android:layout_width="wrap_content"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                app:srcCompat="@drawable/shop"/>
+            <TextView
+                android:textColor="#000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Market"/>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/connectLayout"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                app:srcCompat="@drawable/connect2"/>
+            <TextView
+                android:textColor="#000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Connect"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>
